@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Account</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+
+  <script type="text/javascript" src="js/self.js"></script>
+  
+</head>
+<body>
+<div id="header"><a href="/">Home</a></div>
+
+<form class="sign-up">
+  <h1 class="sign-up-title">添加/修改产品<br>
+  </h1>
+  <span class="label">产品名字(必填)</span>
+  <input type="text" class="sign-up-input" value="" autofocus>
+
+  <span class="label">价格(必填)</span>
+  <input type="text" class="sign-up-input" value="">
+
+  <span class="label">分类(必填)</span>
+  一级分类
+  <select id="large_class">
+  </select>
+  二级分类
+  <select id="small_class">
+  </select>
+
+  <span class="label">库存(如果不填默认为10)</span>
+  <input type="text" class="sign-up-input" value="">
+
+
+  <span class="label">图片</span>
+  <input id="pic" type="file">
+
+  <input id="submit" type="submit" value="Submit" class="sign-up-button">
+</form>
+
+</body>
+</html>

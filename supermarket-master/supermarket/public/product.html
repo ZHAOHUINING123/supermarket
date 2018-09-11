@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>超市</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="超市, aihuahang, chinese supermarket, supermarket, online supermarket" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+    window.onload = function(){
+      if(isIE()){
+        $('body').html('<div id = "not_support">本站不支持IE10内核及以下浏览器，请使用' +
+          'chrome, firefox, safari, 及最新版的国内浏览器</div>')
+        $('#not_support').css('text-align', 'center');
+      }
+      function isIE() {
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE ");
+        if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+        {
+          return true
+        }
+        else  // If another browser, return 0
+        {
+          return false;
+        }
+      }
+    }
+
+	</script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+	<link rel="stylesheet" href="./css/for_index.css">
+</head>
+	
+<body>
+<!-- header -->
+	<div class="agileits_header">
+		<div class="container">
+			<div class="agile-login">
+				<ul>
+					<li><a href="registered.html"> 创建账号 </a></li>
+					<li><a href="login.html">登陆</a></li>
+					<li><a href="contact.html"></a></li>
+				</ul>
+			</div>
+			<div class="product_list_header">
+				购物车 -><button class="w3view-cart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+
+	<div class="logo_products">
+		<div class="container">
+		<div class="w3ls_logo_products_left1">
+				<ul class="phone_email">
+					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>
+					
+				</ul>
+			</div>
+			<div class="w3ls_logo_products_left">
+				<h1><a href="index.html">超市</a></h1>
+			</div>
+		<div class="w3l_search">
+			<form action="#" method="post">
+				<input type="search" name="Search" placeholder="搜索产品..." required="">
+				<button type="submit" class="btn btn-default search" aria-label="Left Align">
+					<i class="fa fa-search" aria-hidden="true"> </i>
+				</button>
+				<div class="clearfix"></div>
+			</form>
+		</div>
+			
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- navigation -->
+<div class="navigation-agileits">
+	<div class="container">
+		<nav class="navbar navbar-default">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header nav_2">
+				<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html" class="act">主页</a></li>
+					<!-- Mega Menu -->
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">酱料<b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-3">
+							<div class="row">
+								<div class="multi-gd-img">
+									<ul class="multi-column-dropdown">
+										<h6><a href="/product.html?large=0&small=-1">酱料</a></h6>
+										<li><a href="/product.html?large=0&small=0">中式酱料</a></li>
+										<li><a href="/product.html?large=0&small=1">日韩调味料</a></li>
+										<li><a href="/product.html?large=0&small=2">火锅底料</a></li>
+										<li><a href="/product.html?large=0&small=3">其他</a></li>
+									</ul>
+								</div>
+
+							</div>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">米面粉<b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-3">
+							<div class="row">
+								<div class="multi-gd-img">
+									<ul class="multi-column-dropdown">
+										<h6><a href="/product.html?large=1&small=-1">米面粉</a></h6>
+										<li><a href="/product.html?large=1&small=0">米类</a></li>
+										<li><a href="/product.html?large=1&small=1">面</a></li>
+										<li><a href="/product.html?large=1&small=2">粉丝粉条</a></li>
+										<li><a href="/product.html?large=1&small=3">其他</a></li>
+									</ul>
+								</div>
+
+
+							</div>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">新鲜 冷藏<b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-3">
+							<div class="row">
+								<div class="multi-gd-img">
+									<ul class="multi-column-dropdown">
+										<h6><a href="/product.html?large=2&small=-1">新鲜 冷藏</a></h6>
+										<li><a href="/product.html?large=2&small=0">果蔬</a></li>
+										<li><a href="/product.html?large=2&small=1">豆腐</a></li>
+										<li><a href="/product.html?large=2&small=2">冷藏食品</a></li>
+										<li><a href="/product.html?large=2&small=3">其他</a></li>
+									</ul>
+								</div>
+							</div>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">冷冻食品<b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-3">
+							<div class="row">
+								<div class="multi-gd-img">
+									<ul class="multi-column-dropdown">
+										<h6><a href="/product.html?large=3&small=-1">冷冻食品</a></h6>
+										<li><a href="/product.html?large=3&small=0">火锅相关</a></li>
+										<li><a href="/product.html?large=3&small=1">速冻饺子</a></li>
+										<li><a href="/product.html?large=3&small=2">鱼 肉 海鲜</a></li>
+										<li><a href="/product.html?large=3&small=3">其他</a></li>
+									</ul>
+								</div>
+
+
+							</div>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">零食饮料<b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-3">
+							<div class="row">
+								<div class="multi-gd-img">
+									<ul class="multi-column-dropdown">
+										<h6><a href="/product.html?large=4&small=-1">零食饮料</a></h6>
+										<li><a href="/product.html?large=4&small=0">零食</a></li>
+										<li><a href="/product.html?large=4&small=1">饮料</a></li>
+										<li><a href="/product.html?large=1&small=2">其他</a></li>
+									</ul>
+								</div>
+
+							</div>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">干货<b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-3">
+							<div class="row">
+								<div class="multi-gd-img">
+									<ul class="multi-column-dropdown">
+										<h6><a href="/product.html?large=5&small=-1">干货</a></h6>
+										<li><a href="/product.html?large=5&small=0">香料</a></li>
+										<li><a href="/product.html?large=5&small=1">食材</a></li>
+										<li><a href="/product.html?large=5&small=2">汤料</a></li>
+										<li><a href="/product.html?large=5&small=3">其他</a></li>
+									</ul>
+								</div>
+
+							</div>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">非食品类<b class="caret"></b></a>
+						<ul class="dropdown-menu multi-column columns-3">
+							<div class="row">
+								<div class="multi-gd-img">
+									<ul class="multi-column-dropdown">
+										<h6><a href="/product.html?large=6&small=-1">非食品类</a></h6>
+										<li><a href="/product.html?large=6&small=0">休闲娱乐</a></li>
+										<li><a href="/product.html?large=6&small=1">厨具餐具</a></li>
+										<li><a href="/product.html?large=6&small=2">其他</a></li>
+									</ul>
+								</div>
+
+							</div>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- breadcrumbs -->
+<div class="breadcrumbs">
+	<div class="container">
+		<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
+			<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>主页</a></li>
+		</ol>
+	</div>
+</div>
+<!-- //breadcrumbs -->
+<!--- groceries --->
+<div class="products">
+	<div class="container">
+		<div class="col-md-8 products-right">
+			<nav class="numbering">
+				<ul class="pagination paging">
+					<li class="active"><a href="javascript:showpage(0);">1</a></li>
+				</ul>
+			</nav>
+			<div class="agile_top_brands_grids">
+				<div class="clearfix"> </div>
+			</div>
+			<nav class="numbering">
+				<ul class="pagination paging pagination2">
+					<li class="active"><a href="javascript:showpage(0);">1</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!--- groceries --->
+<!-- //new -->
+<!-- //footer -->
+<div class="footer">
+
+				Designed by Ruikun Cao, Imperial
+		
+	</div>
+<!-- //footer -->	
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- top-header and slider -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/minicart.min.js"></script>
+<script>
+	// Mini Cart
+	paypal.minicart.render({
+		action: '#'
+	});
+
+	if (~window.location.search.indexOf('reset=true')) {
+		paypal.minicart.reset();
+	}
+</script>
+<!-- main slider-banner -->
+<script src="js/skdslider.min.js"></script>
+<link href="css/skdslider.css" rel="stylesheet">
+<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#demo1').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});
+						
+			jQuery('#responsive').change(function(){
+			  $('#responsive_wrapper').width(jQuery(this).val());
+			});
+			
+		});
+</script>	
+<!-- //main slider-banner -->
+<script type="text/javascript" src="./js/for_product.js"></script>
+<script type="text/javascript" src="js/for_all.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.agile-login{
+  position: absolute;
+  left: -5%;
+}
+
+.products-right{
+  width: 100%;
+}
+
+#main{
+  background-color: bisque;
+}
+
+/*for table*/
+#table{
+  margin-bottom: 20px;
+}
+
+#table table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr{
+  font: 20px "Comic Sans MS";
+  color: black;
+}
+
+td{
+  font: 20px "Arial";
+  color: black;
+}
+
+td, th{
+  border: 1px solid white;
+  text-align: center;
+}
+
+#addNew, #see_orders{
+  font-size: 30px;
+}
